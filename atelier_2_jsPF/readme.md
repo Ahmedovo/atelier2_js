@@ -17,4 +17,8 @@ A partir d'une liste de nombres,On trouve le nombre maximum dans cette liste.
  un programme fonctionnel qui prend un tableau d'objets représentant des produits, et calcul
 le prix total de tous les produits TTC (25 % TVA ).
 ## Exercice 6 : 
-je ne peux pas le faire parce que je n'ai jamais étudié ça.
+une application web qui permet de traiter un ensemble de données de produits 
+et d'afficher les résultats de différentes opérations, 
+telles que le filtrage par catégorie, 
+le calcul du prix total et la recherche des produits en faible stock.
+
