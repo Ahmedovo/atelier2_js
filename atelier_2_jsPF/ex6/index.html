@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Data Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="index.js"></script>
+</head>
+<body>
+    <div>
+        <select id="categoryFilter">
+            <!-- Options for filtering by category will be populated dynamically -->
+        </select>
+        
+        <button onclick="filterProducts()">Filter</button>
+        <button onclick="calculateTotalPrice()">Calculate Total Price</button>
+        <button onclick="findLowStockProducts()">Find Low Stock Products</button>
+        <button onclick="sortProducts('price')">Sort by Price</button>
+        <button onclick="sortProducts('stock')">Sort by Stock</button>
+    </div>
+    <div>
+        <canvas id="productChart" width="400" height="400"></canvas>
+    </div>
+    <div id="productList">
+        <!-- Product list will be displayed here -->
+    </div>
+</body>
+</html>
